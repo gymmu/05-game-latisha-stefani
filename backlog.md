@@ -3,7 +3,7 @@
 - [x] README.md erstellen
 - [x] Autor anpassen in `package.json`
 - [x]Dokumentation vollständig durchlesen
-- [ ] Name des Spiels ändern
+- [x] Name des Spiels ändern
 - [ ] Spielidee auf der Webseite beschreiben (kann später noch erweitert werden)
 - [ ] Bewegung des Spielcharakters verstehen (`onKeyDown` und ähnliche)
 - [ ] Spritesheets verstehen (Dokumentation und die Datei `src/sprites.js`)
