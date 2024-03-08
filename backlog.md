@@ -5,7 +5,7 @@
 - [x]Dokumentation vollständig durchlesen
 - [x] Name des Spiels ändern
 - [x] Spielidee auf der Webseite beschreiben (kann später noch erweitert werden)
-- [ ] Bewegung des Spielcharakters verstehen (`onKeyDown` und ähnliche)
+- [x] Bewegung des Spielcharakters verstehen (`onKeyDown` und ähnliche)
 - [ ] Spritesheets verstehen (Dokumentation und die Datei `src/sprites.js`)
 - [ ] Eigene Spritesheets erstellen
 - [ ] Karten verstehen und verändern (`src/maps.js`)
