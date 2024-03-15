@@ -94,3 +94,6 @@ export async function generateMapRPG(mapfile) {
     }
   }
 }
+
+
+
