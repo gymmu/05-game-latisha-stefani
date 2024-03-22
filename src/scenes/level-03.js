@@ -14,7 +14,13 @@ k.scene("level-03", async () => {
   loadKeyboardRPG()
 
   await generateMapRPG("maps/level-03.txt")
-
+k.add ([
+ k.sprite("himmel"),
+ k.pos(k.width() / 2, k.height() / 2),
+ k.anchor("center"),
+ k.fixed(),
+ k.z(-10),
+])
   addGeneralGameLogic()
 
   k.onCollide("player", "cave", (player) => {
