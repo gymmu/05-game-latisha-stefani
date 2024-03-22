@@ -81,6 +81,8 @@ export function addGeneralGameLogic() {
     if (obstacle.isConsumable === true) {
       obstacle.destroy()
     }
+    player.pos.x = 0
+    player.pos.y = 0
   })
 
   /** Wenn der Spieler geheilt wird, dann wird seine Geschwindigkeit für 1

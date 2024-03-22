@@ -50,6 +50,8 @@ export async function generateMapJumpAndRun(mapfile) {
         GameObjects.goalJumpAndRun(x, y)
       } else if (char === "s") {
         GameObjects.stoneRPG(x, y)
+      } else if (char === "t") {
+        GameObjects.treeRPG(x, y)
       }
     }
   }
@@ -94,6 +96,3 @@ export async function generateMapRPG(mapfile) {
     }
   }
 }
-
-
-
