@@ -24,6 +24,7 @@ export default function createPlayer() {
     // Der Spieler muss dann aber bei GameOver und ähnlichen Szenen von
     // Hand gelöscht werden.
     k.stay(),
+    k.doubleJump(2),
 
     // Das `Tag` für den Spieler, damit man Ihn einfach über kaboom erreichen
     // kann. Es sollte keine anderen Objekte geben, die auch dieses `Tag`
