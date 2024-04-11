@@ -10,8 +10,8 @@ import "./finish.js"
  * Hier gibt es keine Gravitation, wir sind hier in einem RPG-Setting.
  */
 k.scene("level-03", async () => {
-  k.setGravity(0)
-  loadKeyboardRPG()
+  k.setGravity(1200)
+  loadKeyboardJumpAndRun()
 
   await generateMapRPG("maps/level-03.txt")
 k.add ([
