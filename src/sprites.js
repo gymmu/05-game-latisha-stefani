@@ -49,4 +49,5 @@ export default function loadSprites() {
   })
 
   k.loadSprite("himmel", "sprites/himmel.jpeg")
+  k.loadSprite("schloss", "sprites/Schloss1.png")
 }
