@@ -23,6 +23,14 @@ k.scene("level-02", async () => {
     }
   })
 
+  k.add([
+    k.sprite("himmel"),
+    k.pos(k.width() / 2, k.height() / 2),
+    k.anchor("center"),
+    k.fixed(),
+    k.z(-10),
+  ])
+
   k.onCollide("player", "flower", (player, flower) => {
     flower.destroy()
     player.hasFlower = true

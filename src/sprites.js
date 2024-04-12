@@ -48,5 +48,5 @@ export default function loadSprites() {
     wall: { x: 3 * TS, y: 1 * TS, width: TS, height: TS },
   })
 
-  k.loadSprite("himmel", "sprites/himmel.jpeg")
+  k.loadSprite("himmel", "sprites/himmel_pink.jpg")
 }
