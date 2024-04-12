@@ -31,5 +31,13 @@ k.scene("level-03", async () => {
     flower.destroy()
     player.hasFlower = true
   })
+
+
+k.onUpdate(() => {
+  const player = k.get("player")[0]
+  if (player.pos.y > 720) {
+    k.go("lose")
+  }
+})  
   })
 
