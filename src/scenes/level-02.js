@@ -18,7 +18,7 @@ k.scene("level-02", async () => {
   addGeneralGameLogic()
 
   k.onCollide("player", "cave", (player) => {
-    if (player.hasFlower === true) {
+    if (player.flowersCollected >= 5) {
       k.go("level-03")
     }
   })
@@ -33,6 +33,6 @@ k.scene("level-02", async () => {
 
   k.onCollide("player", "flower", (player, flower) => {
     flower.destroy()
-    player.hasFlower = true
+    player.flowersCollected += 1
   })
 })
