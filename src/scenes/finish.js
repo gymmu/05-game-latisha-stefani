@@ -11,9 +11,9 @@ k.scene("finish", () => {
   player.destroy()
   k.add([
     k.sprite("schloss"),
-    k.pos(k.width() / 2, k.height() / 2),
+    k.pos(k.width() / 2, k.height() / 4),
     k.anchor("center"),
-    k.scale(2),
+    k.scale(4),
   ])
  
   k.add([
