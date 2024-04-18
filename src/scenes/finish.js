@@ -20,6 +20,12 @@ k.scene("finish", () => {
     k.pos(k.width() / 2, k.height() / 2),
     k.anchor("center"),
   ])
+  k.add([
+    k.sprite("prinzessin"),
+    k.pos(k.width() / 2, k.height() / 2),
+    k.anchor("center"),
+    k.scale(2),
+  ])
 
   k.onKeyPress("space", () => {
     k.go("intro")
