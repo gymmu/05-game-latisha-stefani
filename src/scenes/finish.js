@@ -15,12 +15,20 @@ k.scene("finish", () => {
     k.anchor("center"),
     k.scale(4),
   ])
- 
+
   k.add([
     k.sprite("prinzessin"),
     k.pos(k.width() / 2, k.height() / 2),
     k.anchor("center"),
     k.scale(2),
+  ])
+
+  k.add([
+    k.sprite("himmel"),
+    k.pos(k.width() / 2, k.height() / 2),
+    k.anchor("center"),
+    k.fixed(),
+    k.z(-10),
   ])
 
   k.onKeyPress("space", () => {
