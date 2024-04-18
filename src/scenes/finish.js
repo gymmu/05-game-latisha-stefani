@@ -15,11 +15,7 @@ k.scene("finish", () => {
     k.anchor("center"),
     k.scale(2),
   ])
-  k.add([
-    k.text("Ziel erreicht", { size: 32, font: "sinko" }),
-    k.pos(k.width() / 2, k.height() / 2),
-    k.anchor("center"),
-  ])
+ 
   k.add([
     k.sprite("prinzessin"),
     k.pos(k.width() / 2, k.height() / 2),
