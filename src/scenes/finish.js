@@ -30,7 +30,11 @@ k.scene("finish", () => {
     k.fixed(),
     k.z(-10),
   ])
-
+  k.add([
+    k.text("Ziel erreicht", { size: 32, font: "sinko" }),
+    k.pos(k.width() / 2, k.height() / 2),
+    k.anchor("center"),
+  ])
   k.onKeyPress("space", () => {
     k.go("intro")
   })
